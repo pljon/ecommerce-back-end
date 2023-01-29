@@ -12,7 +12,9 @@ Tag.init(
       allowNull: false
     },
     tag_name: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false,
+      primaryKey: true
     }
   },
   {
